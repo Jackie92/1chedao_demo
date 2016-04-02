@@ -1,0 +1,62 @@
+/*公用类*/
+*{
+	font-family: "微软雅黑","黑体","宋体","helvetica","verdana","arial";
+	margin: 0px;
+	padding: 0px;
+}
+body,
+html {
+	font-size:12px;	
+	word-break: break-all;
+	word-wrap: break-word;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover,a:active,a:visited{
+	color: #000000;
+}
+ul{
+	list-style-type:none;	
+}
+li {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+	text-transform: none;
+}
+img{
+	border:none;	
+}
+.wrapper {
+	width: 1200px;
+	margin:0 auto;
+}
+.hidden {
+	display: none!important;
+}
+table{
+	width:100%;
+	text-align:center;
+	border-collapse:collapse;	
+}
+table th,table td{
+	padding:0;	
+}
+label{
+	border:none;	
+	cursor:pointer;
+}
+.clear:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
